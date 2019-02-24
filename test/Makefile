@@ -15,7 +15,7 @@ FORCE:
 
 include ../makeflags
 
-LIBS = -lcrucible -lpthread
+LIBS = -lcrucible -lpthread -lxxhash
 BEES_LDFLAGS = -L../lib $(LDFLAGS)
 
 .depends:
